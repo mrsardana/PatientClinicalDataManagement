@@ -95,7 +95,7 @@ class _AddPatientState extends State<AddPatient> {
         "dateOfBirth": dateOfBirth.text,
         "age": age.text,
         "phoneNumber": phoneNumber.text,
-        "address": phoneNumber.text,
+        "address": address.text,
         "doctor": doctor.text,
         "department": dropdownValue
       };

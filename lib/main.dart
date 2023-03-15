@@ -36,13 +36,13 @@ class _MyHomePageState extends State<MyHomePage> {
           ? _validatePasswordTextEditingController = true
           : _validatePasswordTextEditingController = false;
 
-      // if (userNameTextEditingController.text == 'Admin' &&
-      //     passwordTextEditingController.text == '1234') {
-      Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context) => const BottomNav()),
-      );
-      // }
+      if (userNameTextEditingController.text == 'Admin' &&
+          passwordTextEditingController.text == '1234') {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => const BottomNav()),
+        );
+      }
     });
   }
 
